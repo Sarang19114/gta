@@ -4,6 +4,9 @@ import React, { useState, useEffect } from 'react';
 
 import NavBar from './sections/NavBar';
 import Hero from './sections/Hero';
+import Jasonhug from './sections/Jasonhug';
+import Jason from './sections/Jason';
+import Luciahug from './sections/Luciahug';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -44,6 +47,9 @@ function App() {
     <>
     <NavBar />
     <Hero show={showHero} />
+    <Jasonhug />
+    <Jason />
+    <Luciahug />
     </>
   )
 }
